@@ -1,5 +1,5 @@
 h1 a, h2 a {
-    color: #710d90;
+    color: #56086e;
     font-family: 'Lobster';
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    background-color: #e882fc;
+    background-color: #9e27c2;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -61,5 +61,5 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: #532424;
 }
