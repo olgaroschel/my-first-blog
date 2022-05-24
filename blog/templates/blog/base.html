@@ -10,8 +10,11 @@
     <body>
         <body>
             <div class="page-header">
+                
+                </a>
                 {% if user.is_authenticated %}
-                   <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url 'post_new' %}" class="top-menu">
+                    {% include './icons/pencil-fill.svg' %}
                 {% endif %}
                 <h1><a href="/">Django Girls Blog</a></h1>
             </div>
