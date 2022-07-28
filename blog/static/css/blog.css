@@ -1,4 +1,5 @@
-h1 a, h2 a {
+h1 a,
+h2 a {
     color: #56086e;
     font-family: 'Lobster';
 }
@@ -7,14 +8,13 @@ body {
     padding-left: 15px;
 }
 
-    
+
 .page-header {
     background-color: #ac58c5;
     padding: 20px 20px 20px 40px;
     margin-top: 0;
     display: flex;
-    justify-content:space-around
-    
+    justify-content: space-around
 }
 
 .page-header h1,
@@ -55,7 +55,7 @@ h4 {
 .top-menu:hover,
 .top-menu:visited {
     display: flex;
-    color: #ffffff;
+    color: #93c127;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -73,19 +73,16 @@ h4 {
 .post h2 a:visited {
     color: #050505;
     margin: 60px auto
-
 }
 
 .subtitle {
-    display: column;
-    justify-content: center;
-    margin-left: 100px;
-
+    display: inline-block;
+    justify-content: space-around;
 
 }
 
 .img_gato {
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     justify-content: right;
 }
